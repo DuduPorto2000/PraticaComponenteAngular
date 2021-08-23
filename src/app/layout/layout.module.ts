@@ -23,6 +23,7 @@ import { MatMenuModule } from '@angular/material/menu';
     MatButtonModule,
     MatMenuModule
 
-  ]
+  ],
+  exports: [MenuComponent]
 })
 export class LayoutModule { }
